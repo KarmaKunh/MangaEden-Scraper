@@ -1,0 +1,1 @@
+class="(?:closedManga)?(?:openManga)?">(.*)<\/a>

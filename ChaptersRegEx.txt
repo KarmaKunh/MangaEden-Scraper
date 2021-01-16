@@ -1,0 +1,1 @@
+<option ?(?:selected="selected")? class="(?:ui-state-default)?(?:selected)?" value="[0-9]*\.?[0-9]*?">([0-9]*\.?[0-9]*?)<\/option>
