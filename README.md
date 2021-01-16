@@ -31,4 +31,25 @@ The adoption of Wget as the base tool to scrape the site was an early idea and m
 
 "Request" gave me more controll over the download process of the sigle files and most important, allowed me to easily change proxy for each request when needed
 
+By the way, the main page of each manga is still got by wget. Whit future releases i'm going to convert it to the "Request" lib too
+
+
+ABOUT PROXIES:
+
+When I started coding the script, i dint know i would need the use of a lot of proxies to get everything done, but testing the programm i realized their importance to avoid web server refusing my requests
+
+The Script got a series of proxies saved in a "Dictionary" and checks for their functioning just when the execution starts, removing not reachable ones
+
+
+ABOUT FILE 501 INSIDE "Pages" FOLDER:
+
+This file is really important
+Sometime a page request get "refused" by mangaeden webserver because too much request were just sent whit the same IP ( Proxy )
+The WebServer realize im a Scraper and decide to joke me
+It responds with a fake page telling "ERROR 501" so that "Response" lib does not return an error and cant understan if the correct response was jkust sent by the webserver
+
+When this moment comes, having this fake page stored allows the programm to compare it with one he just dowloaded
+if they match, too much requests have been sent with the same proxy, and current download thread, sleeps for 0.5 seconds before retrying
+
+
 
