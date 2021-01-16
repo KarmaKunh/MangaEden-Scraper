@@ -33,6 +33,7 @@ The adoption of Wget as the base tool to scrape the site was an early idea and m
 
 By the way, the main page of each manga is still got by wget. Whit future releases i'm going to convert it to the "Request" lib too
 
+---------------------------
 
 ABOUT PROXIES:
 
@@ -40,6 +41,7 @@ When I started coding the script, i dint know i would need the use of a lot of p
 
 The Script got a series of proxies saved in a "Dictionary" and checks for their functioning just when the execution starts, removing not reachable ones
 
+---------------------------
 
 ABOUT FILE 501 INSIDE "Pages" FOLDER:
 
@@ -52,6 +54,7 @@ When this moment comes, having this fake page stored allows the programm to comp
 if they match, too much requests have been sent with the same proxy, and current download thread, sleeps for 0.5 seconds before retrying
 
 
+---------------------------
 
 Well, basically this is how the script gets everything done
 
@@ -61,7 +64,12 @@ All the new stuff is stored insed "manga/manga-name/chapter-number/" folder
 
 
 Hope my work is not so bad for you
+
+
 Whit Love,
+
 Karma
+
+
 
 Milano - italy
