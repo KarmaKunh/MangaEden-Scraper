@@ -54,7 +54,7 @@ Sometimes a page request get "refused" by mangaeden webserver because too much r
 
 The WebServer realizes im a Scraper and decides to joke me
 
-It responds with a fake page telling "ERROR 501" so that "Request" lib does not return an error and can't understand if the correct response was just sent by the webserver
+It responds with a fake page telling "ERROR 503" ( yes, the name is wrong xD ) so that "Request" lib does not return an error and can't understand if the correct response was just sent by the webserver
 
 When this moment comes, having this fake page stored allows the program to compare it with the one he just dowloaded
 
