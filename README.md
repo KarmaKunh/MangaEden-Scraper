@@ -53,3 +53,15 @@ if they match, too much requests have been sent with the same proxy, and current
 
 
 
+Well, basically this is how the script gets everything done
+
+All the new stuff is stored insed "manga/manga-name/chapter-number/" folder
+
+
+
+
+Hope my work is not so bad for you
+Whit Love,
+Karma
+
+Milano - italy
